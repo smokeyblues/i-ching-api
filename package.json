@@ -1,0 +1,18 @@
+{
+  "name": "i-ching-api",
+  "version": "1.0.0",
+  "description": "An api to serve Legge's translation of the I Ching or book of changes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aaron Pennington",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.7",
+    "morgan": "^1.7.0"
+  }
+}
