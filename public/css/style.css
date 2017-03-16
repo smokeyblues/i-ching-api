@@ -1,0 +1,85 @@
+.bg {
+  /*background: url('/assets/example/bg_blueplane.jpg') no-repeat center center;*/
+  position: fixed;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.pinkToBlue {
+  background:linear-gradient(DeepPink, DodgerBlue);
+}
+
+.blueToPink {
+  background:linear-gradient(DodgerBlue, DeepPink);
+}
+
+.fullHeight {
+  height: 100vh;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.jumbotron {
+  color: white;
+  margin: 0px;
+  text-shadow: #444 0 1px 1px;
+}
+
+.jumbotron h1 {
+  font-size: 8rem;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.fancy {
+  color: white;
+  font-size: 4rem;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.navbar {
+  background:linear-gradient(DeepPink, DodgerBlue);
+  color: white;
+  border: 0;
+  margin: 0;
+}
+
+.btn-circle {
+  width: 15vw;
+  height: 15vh;
+  text-align: center;
+  padding: 6px 0;
+  white-space: normal;
+  line-height: 1.428571429;
+  border-radius: 50px;
+  margin-top: 10vh;
+  font-family: 'Orbitron', cursive;
+  font-size: 2rem;
+}
+
+.navbar h1 {
+  font-size: 6rem;
+  font-family: 'Berkshire Swash', cursive;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: aqua;
+  text-decoration: none;
+}
+
+.jumbotron p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.jumbotron h2 {
+  font-size: 30rem;
+  /*text-shadow: 2px 8px 50px black;*/
+}

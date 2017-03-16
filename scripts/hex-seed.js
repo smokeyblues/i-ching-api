@@ -6,6 +6,7 @@ mongoose.connect('mongodb://localhost/i-ching-api');
 var hexagramData = [
   {
     title: "The Creative",
+    hexNumber: 1,
     unicodeCharacter: "䷀",
     interpretation: "represents what is great and originating, penetrating, advantageous correct and firm. If the host of dragons thus appearing were to divest themselves of their heads, there would be good fortune.",
     lines: {
@@ -18,6 +19,7 @@ var hexagramData = [
     }
   },{
     title: "The Receptive",
+    hexNumber: 2,
     unicodeCharacter: "䷁",
     interpretation: "represents what is great and originating, penetrating, advantageous, correct and having the firmness of nature. When the superior man has to make any movement, if he taks the initiative, he will go astray; if he follow, he will find his proper lord. The advantageousness will be seen in getting friends in the south-west, and losing friends in the north-east. If he rest in correctness and firmness, there will be good fortune.",
     lines: {
@@ -30,6 +32,7 @@ var hexagramData = [
     }
   }, {
     title: "Difficulty at the Beginning",
+    hexNumber: 3,
     unicodeCharacter: "䷂",
     interpretation: "indicates that in the case which it presupposes there will be great progress and success, and the advantage will come from being correct and firm. But any movement in advance should not be lightly undertaken. There will be advantage in appointing feudal princes.",
     lines: {
@@ -42,6 +45,7 @@ var hexagramData = [
     }
   },{
     title: "Youthful Folly",
+    hexNumber: 4,
     unicodeCharacter: "䷃",
     interpretation: "indicates that in the case which it presupposes there will be progress and success. I do not go and seek the youthful and inexperienced, but he comes and seeks me. When he shows the sincerity that marks the first recourse to divination, I instruct him. If he apply a second and third time, that is troublesome ; and I do not instruct the troublesome. There will be advantage in being firm and correct.",
     lines: {
@@ -54,6 +58,7 @@ var hexagramData = [
     }
   },{
     title: "Waiting",
+    hexNumber: 5,
     unicodeCharacter: "䷄",
     interpretation: "intimates that, with the sincerity which is declared in it, there will be brilliant success. With firmness there will be good fortune ; and it will be advantageous to cross the great stream.",
     lines: {
@@ -66,6 +71,7 @@ var hexagramData = [
     }
   },{
     title: "Conflict",
+    hexNumber: 6,
     unicodeCharacter: "䷅",
     interpretation: "intimates how, though there is sincerity in one's contention, he will yet meet with opposition and obstruction; but if he cherish an apprehensive caution, there will be good fortune, while, if he must prosecute the contention to the bitter end, there will be evil. It will be advantageous to see the great man ; it will not be advantageous to cross the great stream.",
     lines: {
@@ -78,6 +84,7 @@ var hexagramData = [
     }
   },{
     title: "The Army",
+    hexNumber: 7,
     unicodeCharacter: "䷆",
     interpretation: "indicates how, in the case which it supposes, with firmness and correctness, and a leader of age and experience, there will be good fortune and no error.",
     lines: {
@@ -90,6 +97,7 @@ var hexagramData = [
     }
   },{
     title: "Holding Together",
+    hexNumber: 8,
     unicodeCharacter: "䷇",
     interpretation: "indicates that under the conditions which it supposes there is good fortune. But let the principal party intended in it re-examine himself, as if by divination, whether his virtue be great, unintermitting, and firm. If it be so, there will be no error. Those who have not rest will then come to him ; and with those who are too late in coming it will be ill.",
     lines: {
@@ -102,6 +110,7 @@ var hexagramData = [
     }
   },{
     title: "The Taming of the Small",
+    hexNumber: 9,
     unicodeCharacter: "䷈",
     interpretation: "indicates that under its conditions) there will be progress and success. We see dense clouds, but no rain coming from our borders in the west.",
     lines: {
@@ -114,6 +123,7 @@ var hexagramData = [
     }
   },{
     title: "Treading",
+    hexNumber: 10,
     unicodeCharacter: "䷉",
     interpretation: "suggests the idea of one treading on the tail of a tiger, which does not bite him. There will be progress and success.",
     lines: {
@@ -126,6 +136,7 @@ var hexagramData = [
     }
   },{
     title: "Peace",
+    hexNumber: 11,
     unicodeCharacter: "䷊",
     interpretation: "we see the little gone and the great come. It indicates that there will be good fortune, with progress and success.",
     lines: {
@@ -138,6 +149,7 @@ var hexagramData = [
     }
   },{
     title: "Standstill",
+    hexNumber: 12,
     unicodeCharacter: "䷋",
     interpretation: "there is the want of good understanding between the different classes of men, and its indication is unfavourable to the firm and correct course of the superior man. We see in it the great gone and the little come.",
     lines: {
@@ -150,6 +162,7 @@ var hexagramData = [
     }
   },{
     title: "Fellowship",
+    hexNumber: 13,
     unicodeCharacter: "䷌",
     interpretation: "or 'Union of men' appears here as we find it in the remote districts of the country, indicating progress and success. It will be advantageous to cross the great stream. It will be advantageous to maintain the firm correctness of the superior man.",
     lines: {
@@ -162,6 +175,7 @@ var hexagramData = [
     }
   },{
     title: "Great Possession",
+    hexNumber: 14,
     unicodeCharacter: "䷍",
     interpretation: "indicates that, under the circumstances which it implies, there will be great progress and success.",
     lines: {
@@ -174,6 +188,7 @@ var hexagramData = [
     }
   },{
     title: "Modesty",
+    hexNumber: 15,
     unicodeCharacter: "䷎",
     interpretation: "indicates progress and success. The superior man, being humble as it implies), will have a good issue to his undertakings.",
     lines: {
@@ -186,6 +201,7 @@ var hexagramData = [
     }
   },{
     title: "Enthusiasm",
+    hexNumber: 16,
     unicodeCharacter: "䷏",
     interpretation: "indicates that, in the state which it implies, feudal princes may be set up, and the hosts put in motion, with advantage.",
     lines: {
@@ -198,6 +214,7 @@ var hexagramData = [
     }
   },{
     title: "Following",
+    hexNumber: 17,
     unicodeCharacter: "䷐",
     interpretation: "indicates that under its conditions there will be great progress and success. But it will be advantageous to be firm and correct. There will then be no error.",
     lines: {
@@ -210,6 +227,7 @@ var hexagramData = [
     }
   },{
     title: "Work on the Decayed",
+    hexNumber: 18,
     unicodeCharacter: "䷑",
     interpretation: "indicates great progress and success to him who deals properly with the condition represented by it. There will be advantage in efforts like that of crossing the great stream. He should weigh well, however, the events of three days before the turning point, and those to be done three days after it.",
     lines: {
@@ -222,6 +240,7 @@ var hexagramData = [
     }
   },{
     title: "Approach",
+    hexNumber: 19,
     unicodeCharacter: "䷒",
     interpretation: "indicates that under the conditions supposed in it there will be great progress and success, while it will be advantageous to be firmly correct. In the eighth month there will be evil.",
     lines: {
@@ -234,6 +253,7 @@ var hexagramData = [
     }
   },{
     title: "Contemplation",
+    hexNumber: 20,
     unicodeCharacter: "䷓",
     interpretation: "shows how he whom it represents should be like the worshipper who has washed his hands, but not yet presented his offerings; with sincerity and an appearance of dignity commanding reverent regard.",
     lines: {
@@ -246,6 +266,7 @@ var hexagramData = [
     }
   },{
     title: "Biting Through",
+    hexNumber: 21,
     unicodeCharacter: "䷔",
     interpretation: "indicates successful progress in the condition of things which it supposes. It will be advantageous to use legal constraints.",
     lines: {
@@ -258,6 +279,7 @@ var hexagramData = [
     }
   },{
     title: "Grace",
+    hexNumber: 22,
     unicodeCharacter: "䷕",
     interpretation: "indicates that there should be free course in what it denotes. There will be little advantage however if it be allowed to advance and take the lead.",
     lines: {
@@ -269,7 +291,21 @@ var hexagramData = [
       6: "The topmost line, undivided, shows its subject as a great fruit which has not been eaten. The superior man finds the people again as a chariot carrying him. The small men by their course overthrow their own dwellings."
     }
   },{
+    title: "Splitting Apart",
+    hexNumber: 23,
+    unicodeCharacter: "䷖",
+    interpretation: "????",
+    lines: {
+      1: "???",
+      2: "???",
+      3: "???",
+      4: "???",
+      5: "???",
+      6: "???"
+    }
+  },{
     title: "The Return",
+    hexNumber: 24,
     unicodeCharacter: "䷗",
     interpretation: "indicates that there will be free course and progress in what it denotes. The subject of it finds no one to distress him in his exits and entrances; friends come to him, and no error is committed. He will return and repeat his proper course. In seven days comes his return. There will be advantage in whatever direction movement is made.",
     lines: {
@@ -282,6 +318,7 @@ var hexagramData = [
     }
   },{
     title: "Innocence",
+    hexNumber: 25,
     unicodeCharacter: "䷘",
     interpretation: "indicates great progress and success, while there will be advantage in being firm and correct. If its subject and his action be not correct, he will fall into errors, and it will not be advantageous for him to move in any direction.",
     lines: {
@@ -294,6 +331,7 @@ var hexagramData = [
     }
   },{
     title: "The Taming Power of the Great",
+    hexNumber: 26,
     unicodeCharacter: "䷙",
     interpretation: "it will be advantageous to be firm and correct. If its subject do not seek to enjoy his revenues in his own family without taking service at court, there will be good fortune. It will be advantageous for him to cross the great stream.",
     lines: {
@@ -306,6 +344,7 @@ var hexagramData = [
     }
   },{
     title: "The Corners of the Mouth",
+    hexNumber: 27,
     unicodeCharacter: "䷚",
     interpretation: "indicates that with firm correctness there will be good fortune in what is denoted by it. We must look at what we are seeking to nourish, and by the exercise of our thoughts seek for the proper aliment.",
     lines: {
@@ -318,6 +357,7 @@ var hexagramData = [
     }
   },{
     title: "Preponderance of the Great",
+    hexNumber: 28,
     unicodeCharacter: "䷛",
     interpretation: "suggests to us a beam that is weak. There will be advantage in moving under its conditions in any direction whatever ; there will be success.",
     lines: {
@@ -330,6 +370,7 @@ var hexagramData = [
     }
   },{
     title: "The Abysmal Water",
+    hexNumber: 29,
     unicodeCharacter: "䷜",
     interpretation: "Khan, here repeated, shows the possession of sincerity, through which the mind is penetrating. Action in accordance with this will be of high value.",
     lines: {
@@ -342,6 +383,7 @@ var hexagramData = [
     }
   },{
     title: "The Clinging Fire",
+    hexNumber: 30,
     unicodeCharacter: "䷝",
     interpretation: "indicates that, in regard to what it denotes, it will be advantageous to be firm and correct, and that thus there will be free course and success. Let its subject also nourish a docility like that of the cow, and there will be good fortune.",
     lines: {
@@ -354,6 +396,7 @@ var hexagramData = [
     }
   },{
     title: "Influence",
+    hexNumber: 31,
     unicodeCharacter: "䷞",
     interpretation: "Hsien indicates that, on the fulfilment of the conditions implied in it, there will be free course and success. Its advantageousness will depend on the being firm and correct, as in marrying a young lady. There will be good fortune.",
     lines: {
@@ -366,6 +409,7 @@ var hexagramData = [
     }
   },{
     title: "Duration",
+    hexNumber: 32,
     unicodeCharacter: "䷟",
     interpretation: "indicates successful progress and no error in what it denotes. But the advantage will come from being firm and correct; and movement in any direction whatever will be advantageous.",
     lines: {
@@ -378,6 +422,7 @@ var hexagramData = [
     }
   },{
     title: "Retreat",
+    hexNumber: 33,
     unicodeCharacter: "䷠",
     interpretation: "indicates successful progress in its circumstances). To a small extent it will still be advantageous to be firm and correct.",
     lines: {
@@ -390,6 +435,7 @@ var hexagramData = [
     }
   },{
     title: "The Power of the Great",
+    hexNumber: 34,
     unicodeCharacter: "䷡",
     interpretation: "indicates that under the conditions which it symbolises it will be advantageous to be firm and correct.",
     lines: {
@@ -402,6 +448,7 @@ var hexagramData = [
     }
   },{
     title: "Progress",
+    hexNumber: 35,
     unicodeCharacter: "䷢",
     interpretation: "we see a prince who secures the tranquillity of the people presented on that account with numerous horses by the king, and three times in a day received at interviews.",
     lines: {
@@ -414,6 +461,7 @@ var hexagramData = [
     }
   },{
     title: "Darkening of the Light",
+    hexNumber: 36,
     unicodeCharacter: "䷣",
     interpretation: "indicates that in the circumstances which it denotes it will be advantageous to realise the difficulty of the position, and maintain firm correctness.",
     lines: {
@@ -426,6 +474,7 @@ var hexagramData = [
     }
   },{
     title: "The Family",
+    hexNumber: 37,
     unicodeCharacter: "䷤",
     interpretation: "For the realisation of what is taught in Chia Jên, or for the regulation of the family, what is most advantageous is that the wife be firm and correct.",
     lines: {
@@ -438,6 +487,7 @@ var hexagramData = [
     }
   },{
     title: "Opposition",
+    hexNumber: 38,
     unicodeCharacter: "䷥",
     interpretation: "indicates that, notwithstanding the condition of things which it denotes, in small matters there will still be good success.",
     lines: {
@@ -450,6 +500,7 @@ var hexagramData = [
     }
   },{
     title: "Obstruction",
+    hexNumber: 39,
     unicodeCharacter: "䷦",
     interpretation: "advantage will be found in the south-west, and the contrary in the north-east. It will be advantageous also to meet with the great man. In these circumstances, with firmness and correctness, there will be good fortune.",
     lines: {
@@ -462,6 +513,7 @@ var hexagramData = [
     }
   },{
     title: "Deliverance",
+    hexNumber: 40,
     unicodeCharacter: "䷧",
     interpretation: "advantage will be found in the south-west. If no further operations be called for, there will be good fortune in coming back to the old conditions. If some operations be called for, there will be good fortune in the early conducting of them.",
     lines: {
@@ -474,6 +526,7 @@ var hexagramData = [
     }
   },{
     title: "Decrease",
+    hexNumber: 41,
     unicodeCharacter: "䷨",
     interpretation: "In what is denoted by Sun, if there be sincerity in him who employs it, there will be great good fortune: freedom from error; firmness and correctness that can be maintained; and advantage in every movement that shall be made. In what shall this sincerity in the exercise of Sun be employed? Even in sacrifice two baskets of grain, though there be nothing else, may be presented.",
     lines: {
@@ -486,6 +539,7 @@ var hexagramData = [
     }
   },{
     title: "Increase",
+    hexNumber: 42,
     unicodeCharacter: "䷩",
     interpretation: "indicates that (in the state which it denotes) there will be advantage in every movement which shall be undertaken, that it will be advantageous (even) to cross the great stream.",
     lines: {
@@ -498,6 +552,7 @@ var hexagramData = [
     }
   },{
     title: "Break-Through",
+    hexNumber: 43,
     unicodeCharacter: "䷪",
     interpretation: "requires (in him who would fulfil its meaning) the exhibition (of the culprit's guilt) in the royal court, and a sincere and earnest appeal (for sympathy and support), with a consciousness of the peril (involved in cutting off the criminal). He should (also) make announcement in his own city, and show that it will not be well to have recourse at once to arms. (In this way) there will be advantage in whatever he shall go forward to.",
     lines: {
@@ -510,6 +565,7 @@ var hexagramData = [
     }
   },{
     title: "Coming to Meet",
+    hexNumber: 44,
     unicodeCharacter: "䷫",
     interpretation: "shows a female who is bold and strong. It will not be good to marry (such) a female.",
     lines: {
@@ -522,6 +578,7 @@ var hexagramData = [
     }
   },{
     title: "Gathering Together",
+    hexNumber: 45,
     unicodeCharacter: "䷬",
     interpretation: "the king will repair to his ancestral temple. It will be advantageous (also) to meet with the great man; and then there will be progress and success, though the advantage must come through firm correctness. The use of great victims will conduce to good fortune; and in whatever direction movement is made, it will be advantageous.",
     lines: {
@@ -534,6 +591,7 @@ var hexagramData = [
     }
   },{
     title: "Pushing Upward",
+    hexNumber: 46,
     unicodeCharacter: "䷭",
     interpretation: "indicates that (under its conditions) there will be great progress and success. Seeking by (the qualities implied in it) to meet with the great man, its subject need have no anxiety. Advance to the south will be fortunate.",
     lines: {
@@ -546,6 +604,7 @@ var hexagramData = [
     }
   },{
     title: "Oppression",
+    hexNumber: 47,
     unicodeCharacter: "䷮",
     interpretation: "there may (yet be) progress and success. For the firm and ect, the (really) great man, there will be good fortune. He will fall into no error. If he make speeches, his words cannot be made good.",
     lines: {
@@ -558,6 +617,7 @@ var hexagramData = [
     }
   },{
     title: "The Well",
+    hexNumber: 48,
     unicodeCharacter: "䷯",
     interpretation: "(Looking at) it, (we think of) how (the site of) a town may be changed, while (the fashion of) its wells undergoes no change. (The water of a well) never disappears and never receives (any great) increase, and those who come and those who go can draw and enjoy the benefit. If (the drawing) have nearly been accomplished, but, before the rope has quite reached the water, the bucket is broken, this is evil.",
     lines: {
@@ -570,6 +630,7 @@ var hexagramData = [
     }
   },{
     title: "Revolution",
+    hexNumber: 49,
     unicodeCharacter: "䷰",
     interpretation: "(What takes place as indicated by) 'Revolution' is believed in only after it has been accomplished. There will be great progress and success. Advantage will come from being firm and correct. (In that case) occasion for repentance will disappear.",
     lines: {
@@ -582,6 +643,7 @@ var hexagramData = [
     }
   },{
     title: "The Cauldron",
+    hexNumber: 50,
     unicodeCharacter: "䷱",
     interpretation: "'The Cauldron' gives the intimation of great progress and success.",
     lines: {
@@ -594,6 +656,7 @@ var hexagramData = [
     }
   },{
     title: "The Arousing",
+    hexNumber: 51,
     unicodeCharacter: "䷲",
     interpretation: "'The Arousing' gives the intimation of ease and development. When (the time of) movement (which it indicates) comes, (the subject of the hexagram) will be found looking out with apprehension, and yet smiling and talking cheerfully. When the movement (like a crash of thunder) terrifies all within a hundred 11, he will be (like the sincere worshipper) who is not (startled into) letting go his ladle and (cup of) sacrificial spirits.",
     lines: {
@@ -606,6 +669,7 @@ var hexagramData = [
     }
   },{
     title: "Keeping Still, Mountain",
+    hexNumber: 52,
     unicodeCharacter: "䷳",
     interpretation: "When one's resting is like that of the back, and he loses all consciousness of self; when he walks in his courtyard, and does not see any (of the persons) in it, there will be no error.",
     lines: {
@@ -618,6 +682,7 @@ var hexagramData = [
     }
   },{
     title: "Development",
+    hexNumber: 53,
     unicodeCharacter: "䷴",
     interpretation: "'Development' suggests to us the marriage of a young lady, and the good fortune (attending it). There will be advantage in being firm and correct.",
     lines: {
@@ -630,6 +695,7 @@ var hexagramData = [
     }
   },{
     title: "The Marrying Maiden",
+    hexNumber: 54,
     unicodeCharacter: "䷵",
     interpretation: "'The Marrying Maiden' indicates that (under the conditions which it denotes) action will be evil, and in no wise advantageous.",
     lines: {
@@ -642,6 +708,7 @@ var hexagramData = [
     }
   },{
     title: "Abundance",
+    hexNumber: 55,
     unicodeCharacter: "䷶",
     interpretation: "'Abundance' intimates progress and development When a king has reached the point (which the name denotes) there is no occasion to be anxious (through fear of a change). Let him be as the sun at noon.",
     lines: {
@@ -654,6 +721,7 @@ var hexagramData = [
     }
   },{
     title: "The Wanderer",
+    hexNumber: 56,
     unicodeCharacter: "䷷",
     interpretation: "'The Wanderer' intimates that (in the condition which it denotes) there may be some little attainment and progress. If the stranger or traveller be firm and correct as he ought to be, there will be good fortune.",
     lines: {
@@ -666,6 +734,7 @@ var hexagramData = [
     }
   },{
     title: "The Gentle Wind",
+    hexNumber: 57,
     unicodeCharacter: "䷸",
     interpretation: "'The Gentle Wind' intimates that (under the conditions which it denotes) there will be some little attainment and progress. There will be advantage in movement onward in whatever direction. It will be advantageous (also) to see the great man.",
     lines: {
@@ -678,6 +747,7 @@ var hexagramData = [
     }
   },{
     title: "The Joyous Lake",
+    hexNumber: 58,
     unicodeCharacter: "䷹",
     interpretation: "'The Joyous Lake' intimates that (under its conditions) there will be progress and attainment. (But) it will be advantageous to be firm and correct.",
     lines: {
@@ -690,6 +760,7 @@ var hexagramData = [
     }
   },{
     title: "Dispersion",
+    hexNumber: 59,
     unicodeCharacter: "䷺",
     interpretation: "'Dispersion' intimates that (under its conditions) there will be progress and success. The king goes to his ancestral temple; and it will be advantageous to cross the great stream. It will be advantageous to be firm and correct.",
     lines: {
@@ -702,6 +773,7 @@ var hexagramData = [
     }
   },{
     title: "Limitation",
+    hexNumber: 60,
     unicodeCharacter: "䷻",
     interpretation: "'Limitation' intimates that (under its conditions) there will be progress and attainment. (But) if the regulations (which it prescribes) be severe and difficult, they cannot be permanent.",
     lines: {
@@ -714,6 +786,7 @@ var hexagramData = [
     }
   },{
     title: "Inner Truth",
+    hexNumber: 61,
     unicodeCharacter: "䷼",
     interpretation: "'Inner Truth' (moves even) pigs and fish, and leads to good fortune. There will be advantage in crossing the great stream. There will be advantage in being firm and correct. ",
     lines: {
@@ -726,6 +799,7 @@ var hexagramData = [
     }
   },{
     title: "Preponderance of the Small",
+    hexNumber: 62,
     unicodeCharacter: "䷽",
     interpretation: "HsiSo Kwo indicates that (in the circumstances which it implies) there will be progress and attainment. But it will be advantageous to be firm and correct. (What the name denotes) may be done in small affairs, but not in great affairs. (It is like) the notes that come down from a bird on the wing; to descend is better than to ascend. There will (in this way) be great good fortune.",
     lines: {
@@ -738,6 +812,7 @@ var hexagramData = [
     }
   },{
     title: "After Completion",
+    hexNumber: 63,
     unicodeCharacter: "䷾",
     interpretation: "'After Completion' intimates progress and success in small matters. There will be advantage in being firm and correct. There has been good fortune in the beginning; there may be disorder in the end.",
     lines: {
@@ -750,6 +825,7 @@ var hexagramData = [
     }
   },{
     title: "Before Completion",
+    hexNumber: 64,
     unicodeCharacter: "䷿",
     interpretation: "Wei 3t intimates progress and success (in the circumstances which it implies). (We see) a young fox that has nearly crossed (the stream), when its tail gets immersed. There will be no advantage in any way.",
     lines: {
@@ -763,7 +839,7 @@ var hexagramData = [
   }
 ]
 
-hexagramData.forEach(hexObj)=>{
+hexagramData.forEach((hexObj)=>{
   var hexagram = new Hexagram(hexObj);
 
   hexagram.save((err, doc)=>{

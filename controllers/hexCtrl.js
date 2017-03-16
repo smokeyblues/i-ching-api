@@ -1,11 +1,11 @@
-var Hexagram = require('../models/hexagram');
+var Hexagram = require('../models/Hexagram');
 
 module.exports = {
 
   get : (req, res) =>{
     // get one
     if (req.params.id) {
-      Hexagram.findOne({_id : req.params}).exec((err, hexagram)=>{
+      Hexagram.findOne({_id : req.params.id}).exec((err, hexagram)=>{
         if (err) {
           return res.send(err)
         }
@@ -32,7 +32,7 @@ module.exports = {
           if (err) {
             return res.send(err)
           }
-          res.send(hexagram)
+          res.send(hexagrams)
         });
     }
   }
